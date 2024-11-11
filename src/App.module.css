@@ -1,0 +1,32 @@
+.calculator{
+  margin: 10% 25%;
+  width: 40%;
+  text-align: center;
+  border: 2px solid rgba(99, 91, 91, 0.637);
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 0 slategrey ;
+}
+
+.calculator:hover{
+  transition: ease-in-out;
+  background-color: rgb(141, 139, 135);
+  /* transform: rotate(5deg); */
+  
+  
+}
+
+
+
+
+@media (min-width: 1200px) {
+  
+  .calculator{
+    margin:10% 25% ;
+    width: 28%;
+    
+    
+    box-shadow: 25px slategrey;
+  
+  }
+}

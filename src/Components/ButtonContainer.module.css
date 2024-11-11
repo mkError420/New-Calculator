@@ -1,0 +1,39 @@
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button{
+  height: 45px;
+  width: 45px;
+  margin: 6px;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: alias;
+  
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+  border: 3px solid rgb(99, 235, 235);
+  border-radius:0  22px;
+  box-shadow: 0 0 20px slateblue;
+  transform: scale(1) translateY(-5px);
+  transition:all 0.3s ease;
+}
+
+
+@media (min-width: 1200px) {
+  
+  .buttonsContainer{
+    margin: 0 50px 0 ;
+    
+    
+    
+    
+    box-shadow: 25px slategrey;
+  
+  }
+}
