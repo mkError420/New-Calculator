@@ -19,14 +19,25 @@
 
 
 
-@media (min-width: 1200px) {
-  
-  .calculator{
-    margin:10% 25% ;
-    width: 28%;
-    
-    
-    box-shadow: 25px slategrey;
-  
+@media screen and (max-width: 768px) {
+  .calculator {
+    margin: 10% 15%;
+    width: 60%; /* Adjust width for smaller devices */
+  }
+}
+
+/* Media query for screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+  .calculator {
+    margin: 10% 5%;
+    width: 80%; /* Adjust width for very small devices */
+  }
+}
+
+/* Media query for very small screens (e.g., smaller phones) */
+@media screen and (max-width: 320px) {
+  .calculator {
+    margin: 10% 2%;
+    width: 90%; /* Increase width to fit smaller devices */
   }
 }

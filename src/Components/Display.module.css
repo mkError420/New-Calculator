@@ -22,3 +22,13 @@
   
   }
 }
+
+
+@media (min-width: 768px) {
+  
+  .display{
+    margin:25px 0;
+    box-shadow: 25px slategrey;
+  
+  }
+}
